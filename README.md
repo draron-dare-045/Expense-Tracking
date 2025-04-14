@@ -1,12 +1,83 @@
-# React + Vite
+# 💸 React Expense Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a React application that allows you to track your expenses using a searchable and sortable table. You can add new expenses, search through them, and optionally sort or delete individual entries.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+##  Features
 
-## Expanding the ESLint configuration
+### Core Deliverables
+- 📋 Display all expenses in a table
+- ➕ Add a new expense through a form
+- 🔍 Filter/search expenses by name or description
+- 📄 Built with React using functional components and state management
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+###  Advanced Deliverables (Optional)
+- Sort expenses alphabetically by **category** or **description**
+- 🗑️ Delete individual expenses from the table
+
+---
+
+##  Technologies Used
+- React
+- JavaScript (ES6+)
+- HTML/CSS 
+
+---
+
+##  Getting Started
+
+### 1. Clone the repository:
+```bash
+git clone https://github.com/your-username/react-expense-tracker.git
+cd react-expense-tracker
+```
+
+### 2. Install dependencies:
+```bash
+npm install
+```
+
+### 3. Start the development server:
+```bash
+npm start
+```
+
+This will start the app on `http://localhost:3000`
+
+---
+
+## 🧪 Testing
+
+If you'd like to run tests (if set up), use:
+
+```bash
+npm test
+```
+
+---
+
+##  Usage
+
+1. View your current expenses in the table.
+2. Fill in the form to add a new expense. It will instantly appear in the table.
+3. Use the search bar to filter expenses by **description** or **name**.
+4. (Optional) Sort the expenses using the dropdown.
+5. (Optional) Click the delete button to remove a specific expense.
+
+---
+
+## 📁 File Structure
+
+```
+src/
+├── components/
+│   ├── ExpenseTable.js
+│   ├── ExpenseForm.js
+│   ├── SearchBar.js
+│   ├── SortControls.js
+├── App.js
+├── index.js
+```
+
+---

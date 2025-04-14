@@ -1,4 +1,4 @@
-# 💸 React Expense Tracker
+#  React Expense Tracker
 
 This is a React application that allows you to track your expenses using a searchable and sortable table. You can add new expenses, search through them, and optionally sort or delete individual entries.
 
@@ -7,10 +7,10 @@ This is a React application that allows you to track your expenses using a searc
 ##  Features
 
 ### Core Deliverables
-- 📋 Display all expenses in a table
-- ➕ Add a new expense through a form
-- 🔍 Filter/search expenses by name or description
-- 📄 Built with React using functional components and state management
+-  Display all expenses in a table
+-  Add a new expense through a form
+-  Filter/search expenses by name or description
+-  Built with React using functional components and state management
 
 ###  Advanced Deliverables (Optional)
 - Sort expenses alphabetically by **category** or **description**
@@ -47,7 +47,7 @@ This will start the app on `http://localhost:3000`
 
 ---
 
-## 🧪 Testing
+## Testing
 
 If you'd like to run tests (if set up), use:
 

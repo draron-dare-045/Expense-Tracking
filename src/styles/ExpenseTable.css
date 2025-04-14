@@ -1,0 +1,18 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th,
+  td {
+    border: 1px solid #0e5f40;
+    padding: 10px;
+  }
+  
+  .sort-controls {
+    margin-bottom: 10px;
+    font-size: larger;
+    display: flex;
+    border-radius: 8px;
+    font-family: 'Times New Roman', Times, serif;
+  }

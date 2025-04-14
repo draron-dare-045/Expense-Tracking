@@ -1,0 +1,14 @@
+Form {
+    display: flex;
+    flex-direction: row;
+    max-width: 79%;
+    margin-bottom: 20px;
+  }
+Form {
+    flex-wrap: wrap;
+  }
+  form input,
+  form button {
+    margin-bottom: 20px;
+    padding: 8px;
+  }
